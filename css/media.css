@@ -1,0 +1,112 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    .project{
+        padding: 50px 0;
+    }
+    .about {
+        padding: 50px 0px;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .default h2{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    header ul{
+		text-align: center !important;
+	}
+    .slider {
+        width: 100%;
+    }
+    .default {
+        height: 70vh;
+    }
+    .expand {
+        height: 70vh;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .project{
+        padding: 60px 0;
+    }
+    .about {
+        padding: 60px 0px;
+    }
+    .contact {
+        padding: 60px 0;
+    }
+    header ul{
+		text-align: center !important;
+	}
+    .slider {
+        width: 100%;
+    }
+
+    .default {
+        height: 80vh;
+    }
+    .expand {
+        height: 80vh;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project{
+        padding: 80px 0;
+    }
+    .about {
+        padding: 80px 0px;
+    }
+    .contact {
+        padding: 80px 0;
+    }
+    .slider {
+        width: 100%;
+    }
+
+    .default {
+        height: 85vh;
+    }
+    .expand {
+        height: 85vh;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pro-card{
+        padding: 40px 25px;
+        border-radius: 7px;
+        min-height: 600px;
+    }
+    .slider {
+        width: 100%;
+    }
+    .default {
+        height: 97vh;
+    }
+    .expand {
+        height: 97vh;
+    }
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .default {
+        height: 100vh;
+    }
+    .expand {
+        height: 100vh;
+    }
+}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
